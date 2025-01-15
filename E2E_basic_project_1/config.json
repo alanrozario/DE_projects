@@ -1,0 +1,6 @@
+{
+    "funds_list_extract": {
+        "funds_url": "https://api.mfapi.in/mf",
+        "funds_output_file": "E2E_basic_project_1/funds_output.csv"
+    }
+}
