@@ -1,0 +1,60 @@
+{
+    "api_key": "W29CL3ZFNKTUQOPR",
+    "bucket_name": "credit-rating-s3-bucket",
+    "url": "https://www.alphavantage.co/",
+    "functions": {
+        "wwekly": {
+            "TIME_SERIES_WEEKLY_ADJUSTED": {
+                "function": "TIME_SERIES_WEEKLY_ADJUSTED",
+                "symbol": null
+            },
+            "CURRENCY_EXCHANGE_RATE": {
+                "function": "CURRENCY_EXCHANGE_RATE",
+                "from_currency": "USD",
+                "to_currency": "GBP"
+            }
+        },
+        "monthly": {
+            "OVERVIEW": {
+                "function": "OVERVIEW",
+                "symbol": null
+            },
+            "INFLATION": {
+                "function": "INFLATION"
+            },
+            "UNEMPLOYMENT": {
+                "function": "UNEMPLOYMENT"
+            }
+        },
+        "quarterly": {
+            "REAL_GDP": {
+                "function": "REAL_GDP",
+                "interval": "quarterly"
+            },
+            "INCOME_STATEMENT": {
+                "function": "INCOME_STATEMENT",
+                "symbol": null
+            },
+            "BALANCE_SHEET": {
+                "function": "BALANCE_SHEET",
+                "symbol": null
+            },
+            "CASH_FLOW": {
+                "function": "CASH_FLOW",
+                "symbol": null
+            }
+        }
+    },
+    "sector_wise_symbols": {
+        "Barclays": "BARC.L",
+        "HSBC Holdings": "HSBA.L",
+        "Lloyds Banking Group": "LLOY.L",
+        "GlaxoSmithKline": "GSK.L",
+        "AstraZeneca": "AZN.L",
+        "British Petroleum": "BP.L",
+        "Rio Tinto": "RIO.L",
+        "Unilever": "ULVR.L",
+        "Diageo": "DGE.L",
+        "Reckitt Benckiser": "RKT.L"
+    }
+}
